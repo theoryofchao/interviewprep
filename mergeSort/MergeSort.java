@@ -5,6 +5,12 @@ import java.util.Arrays;
 public class MergeSort {
 	
 	public static void mergeSort(int[] input) {
+		
+		//if input size is 1 consider it sorted
+		if(input.length<2){
+			return;
+		}
+		
 		//helper array used for recursive mergeSort
 		int[] helper = new int[input.length];
 		mergeSort(input, helper, 0, input.length-1);
