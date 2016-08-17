@@ -11,7 +11,7 @@ public class BubbleSort {
 			return;
 		}
 		
-		int swap=0;
+		int swap=0;	//temp variable that holds the variable that is swapped
 		
 		for(int i=0; i<input.length; i++){
 			for(int j=1; j<(input.length-i); j++){
