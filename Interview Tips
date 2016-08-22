@@ -1,0 +1,53 @@
+Technical Problem Approach
+
+1. Ask Questions: 
+	-Resolve ambiguity and provides clarification regarding the problem
+	-Simplifies the problem by removing cases you may not need to account for
+	-Removes assumptions you have made regarding the problem
+
+2. Create Test Cases: 
+	-Common Cases, Extreme, 0, Min, Max, Negative, Null
+	-Remember not to make test cases too small or too large (unless testing extremes)
+
+3. Brute Force Method: 
+	-Come up with the brute force and explain the space and time complexity
+
+4. Identify Ideal Solution: 
+	-What is the ideal space and time complexity we can achieve?
+
+5. Design Algorithm to Improve Upon Brute Force:
+	-By this point, try to improve brute force solution
+	-If stuck, try to think of an easier version of the problem and solve that first
+	-We need not have the ideal solution by this point, we firstly want to show the interviewer we are capable of optimizing
+	
+6. Use the Five Algorithm Approach
+	-Examplify: Create a specific example of the problem and try to derive a general solution
+	-Pattern Matching: Consider what problems the algorithm is similar to and try to modify the solution to the related problem to develop new algorithm
+	-Simplify and Generalize: Change constraints to simplify the problem, develop algorithm, then generalize problem and adapt
+	-Base Case & Build: Solve the problem for the base, and try to build the problem for subsequent solution
+	-Data Structure Brainstorm: Try a bunch of data structures and see if any of them are application for the problem
+		-Hash Tables (very prevalent)	-Arrays/ArrayList(Resizable Array)	-StringBuilder/StringBuffer (saves space while appending to string)
+		-Linked Lists					-Stacks								-Queues
+		-Trees/Graphs					-Heaps								-Binary Search Tree (left subtree <= node < right subtree)
+		-Tries							-Come up with your own!
+		
+7. Write Pseudocode: 
+	-Try to decouple as much as possible and make it modular. It will simplify your life when you're coding
+	
+8. Code:
+	-Use proper syntax whenever possible
+	-Comment if needed for both the interview and yourself
+	-Try not to hard-code. Keep algorithm flexible and robust. Use variables and not hardcoded values.
+	-If there requires a specific function you don't want to code. Write a function and explain it to the interviewer and see if you can bypass
+	-In as few lines as possible. Avoid repeating code.
+	-Reuse code whenever possible
+	-Validate inputs through assertions or if-statements
+
+9. Test:
+	-For the test cases written in step 2, run through the test cases with your interviewer
+	-Draw it out whenever necessary to explain to interviewer
+	-Check for off by 1 errors (especially with arrays so we don't have NullPointerException)
+
+10. Debug Failed Test Cases:
+	-Go through code and fix, do not change outright as it may show interview you're just randomly testing
+	-Explicitly show step by step where problems may arise.
