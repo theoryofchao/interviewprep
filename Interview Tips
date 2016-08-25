@@ -12,8 +12,8 @@ Technical Problem Approach
 3. Brute Force Method: 
 	-Come up with the brute force and explain the space and time complexity
 
-4. Identify Ideal Solution: 
-	-What is the ideal space and time complexity we can achieve?
+4. Identify the Best Conceivable Runtime: 
+	-What is the ideal time complexity we can achieve?
 
 5. Design Algorithm to Improve Upon Brute Force:
 	-By this point, try to improve brute force solution
