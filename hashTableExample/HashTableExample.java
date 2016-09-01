@@ -32,6 +32,9 @@ public class HashTableExample {
 		//Returns the enumeration of the keys contained in the hash table
 		ht.keys();
 		
+		//Returns a Set view of the keys contained in this map. To access use (for String key: ht.keySet())
+		ht.keySet();
+		
 		//Maps specified key to the specified value in the hash table
 		ht.put(1, "value");
 		
