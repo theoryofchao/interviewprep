@@ -2,6 +2,12 @@ Technical Problem Approach
 
 1. Ask Questions: 
 	-Resolve ambiguity and provides clarification regarding the problem
+	    -What is the type of the input (String, int, etc)?
+	    -How large or small can the input be?
+	    -How many different possible characters can be in the input?
+	    -Is it recursive/dynamic? Should I overload or write a helper function?
+	    -How often is the function used?
+	    -What is the output?
 	-Simplifies the problem by removing cases you may not need to account for
 	-Removes assumptions you have made regarding the problem
 
