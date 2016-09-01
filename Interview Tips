@@ -9,6 +9,7 @@ Technical Problem Approach
 	    -How often is the function used?
 	    -What is the output?
 	    -Is it sorted? Can we use binary search or any logn time? Do we need to sort using nlogn time?
+	    -Check what parameter is instance of if (obj instanceof String)
 	    -CAN WE USE A HASH TABLE? 
 	-Simplifies the problem by removing cases you may not need to account for
 	-Removes assumptions you have made regarding the problem
